@@ -58,7 +58,7 @@ export class Observable<T> {
     this.value = next;
   }
 
-  start() {
+  resume() {
     this.running = true;
   }
 
