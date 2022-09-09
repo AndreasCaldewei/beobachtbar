@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AndreasCaldewei/typescript-npm-package-template.git"
+    "url": "git+https://github.com/AndreasCaldewei/beobachtbar.git"
   },
   "license": "MIT",
   "author": {
