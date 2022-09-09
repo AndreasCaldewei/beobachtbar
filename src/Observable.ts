@@ -38,8 +38,12 @@ export class Observable<T> {
     this._value = init;
   }
 
-  subscribe(callback: (next: T) => void) {
+  subscribe(callback: (next: T) => void, config?: { immediate: boolean }) {
     this.subscribers.push(callback);
+
+    if (config?.immediate === true) {
+      callback(this._value);
+    }
 
     return () => {
       this.subscribers.splice(this.subscribers.indexOf(callback), 1);
