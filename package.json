@@ -1,5 +1,5 @@
 {
-  "name": "typescript-npm-package-template",
+  "name": "beobachtbar",
   "version": "0.0.0-development",
   "description": "A template for creating npm packages using TypeScript and VSCode",
   "main": "./lib/src/index.js",
@@ -42,9 +42,9 @@
     "codecov"
   ],
   "bugs": {
-    "url": "https://github.com/AndreasCaldewei/typescript-npm-package-template/issues"
+    "url": "https://github.com/AndreasCaldewei/beobachtbar/issues"
   },
-  "homepage": "https://github.com/AndreasCaldewei/typescript-npm-package-template#readme",
+  "homepage": "https://github.com/AndreasCaldewei/beobachtbar#readme",
   "devDependencies": {
     "@ryansonshine/commitizen": "^4.2.8",
     "@ryansonshine/cz-conventional-changelog": "^3.3.4",
